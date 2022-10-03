@@ -1,0 +1,3 @@
+This is Jack, 
+ writing directly to the file!
+And here I am writing using the writeline function instead!
