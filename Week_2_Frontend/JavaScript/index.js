@@ -104,3 +104,4 @@ function birthday(){
     myDay = 26
     console.log(myDay)
 } // Using functions allow us to keep our data and proghram more secure by keeping variables and operations seperate from the rest of the file unless explicitly accessed.
+
