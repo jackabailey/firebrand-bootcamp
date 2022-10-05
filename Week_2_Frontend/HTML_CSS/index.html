@@ -1,4 +1,4 @@
-<!-- Using ! and pressing enter will make a new ttemplate for our HTML -->
+<!-- Using ! and pressing enter will make a new template for our HTML -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,19 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firebrand Bootcamp</title>
+    <link rel="stylesheet" href="style.css">
     <!-- The below style tag contains internal CSS - DON'T use thisif at all possible. It should have a justifiable reason for being used. it's just here as an example -->
     <!-- Despite this, the CSS styling in the h1 tag itselfis closer to the element, and therefore this is still the CSS which is used. -->
     <style>
         h1 {
             color: blue;
+            font-size: 50px;
+        }
+        p {
+            text-decoration: underline;
+            text-align: center;
+            color: blue
         }
     </style>
 </head>
 <body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blankpage.html">Spooky Blank Page</a></li>
+        <li><a href="https://google.co.uk" target = _blank> Google</a></li>
+        <!-- The above link will take a user to an external website, but using target=_blank, we can open a new tab. -->
+    </ul>
     <!-- h1 is the largest header, but there are smaller variants such as h2, h3, h4, h5 and h6 -->
     <!-- The below headding tag contains inline CSS - DON'T use this, it's just here as an example -->
     <!-- In the below tag, it can be seen that the colour yellow is after the color crimson, and therefore yellow is read last. Yellow is also physically closer to the actual content of the element. This means that the style applied is the yellow colour and not the crimson element. -->
-    <h1 style="color: crimson; color: yellow; text-align: center;">Some Information ABOUT BROWSERS</h1>
+    <h1 style="color: crimson; color: yellow; color: green; text-align: center; font-size: 25px;">Some Information ABOUT BROWSERS</h1>
     <!-- p stands for a basic paragraph-->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita natus aliquid mollitia sit soluta, sunt harum eum quas. Laudantium illum facilis voluptates vitae autem vero beatae iste! Repellendus libero corporis praesentium similique ex voluptate. Laboriosam perferendis error velit consectetur corporis architecto, illum magni iste ipsa similique officia itaque in sit temporibus est deleniti neque explicabo animi delectus consequatur accusantium aut quo ullam? Perspiciatis temporibus eaque dolorum qui porro iure incidunt, quos alias, nostrum unde rem, quibusdam nisi delectus ad assumenda pariatur voluptate ipsum vitae officiis cupiditate quod ut molestiae dignissimos repudiandae? Quaerat blanditiis recusandae harum, ratione mollitia molestiae?<p>
 

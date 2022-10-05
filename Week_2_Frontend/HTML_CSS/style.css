@@ -1,0 +1,38 @@
+/* Quick reminder, tyhat with CSS, you should not use empty rulesets. Don't try and style something which doesn't exist. It's useless code and should therefore  be removed.*/
+body {
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+ul {
+    background-color: green;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float:left;
+}
+li a {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+h1 {
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+}
+p {
+    color: blueviolet;
+    text-align: center;
+}
+#paragraph-2 { /* Notice how this ID has a # in front of it. This means that any element with this ID will be affected by the CSS below. Remember that CSS uses a last-read, first-shown implementation, meaning that if there was a CSS p {} style below this, that would be applied instead. */
+    color: black;
+    text-align: right;
+    font-size: 20px;
+}
