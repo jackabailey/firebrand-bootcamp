@@ -13,6 +13,10 @@ function cashmachine(){
     enterPIN()
 }
 function enterPIN(){
+    /*
+    A function accepting user entry for a PIN number
+    */
+
     PINAttempts = 0
     while (cardBlocked == false) {
         if (prompt("Please enter your PIN") == pin){
