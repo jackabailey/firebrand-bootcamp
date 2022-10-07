@@ -1,0 +1,17 @@
+h1 {
+    color: crimson;
+}
+/* Default Headding 1 style */
+
+#headOne {
+    color: #006a4d;
+}
+#headTwo {
+    color: #006a4d;
+}
+/* headOne overwrites the h1 style as it's read after */
+
+p {
+    color: coral;
+}
+/* Default Paragraph style */
