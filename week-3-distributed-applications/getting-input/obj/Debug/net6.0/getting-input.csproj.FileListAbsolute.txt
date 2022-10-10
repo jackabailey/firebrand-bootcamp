@@ -1,0 +1,15 @@
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\bin\Debug\net6.0\getting-input.exe
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\bin\Debug\net6.0\getting-input.deps.json
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\bin\Debug\net6.0\getting-input.runtimeconfig.json
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\bin\Debug\net6.0\getting-input.dll
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\bin\Debug\net6.0\getting-input.pdb
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.csproj.AssemblyReference.cache
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.GeneratedMSBuildEditorConfig.editorconfig
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.AssemblyInfoInputs.cache
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.AssemblyInfo.cs
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.csproj.CoreCompileInputs.cache
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.dll
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\refint\getting-input.dll
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.pdb
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\getting-input.genruntimeconfig.cache
+\\mac\home\Documents\work-files\work-current\firebrand\firebrand-bootcamp\week-3-distributed-applications\getting-input\obj\Debug\net6.0\ref\getting-input.dll
