@@ -1,0 +1,15 @@
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/bin/Debug/net6.0/structure-of-cs-program
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/bin/Debug/net6.0/structure-of-cs-program.deps.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/bin/Debug/net6.0/structure-of-cs-program.runtimeconfig.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/bin/Debug/net6.0/structure-of-cs-program.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/bin/Debug/net6.0/structure-of-cs-program.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.csproj.AssemblyReference.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.AssemblyInfoInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.AssemblyInfo.cs
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.csproj.CoreCompileInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/refint/structure-of-cs-program.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/structure-of-cs-program.genruntimeconfig.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/Debug/net6.0/ref/structure-of-cs-program.dll

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/structure-of-cs-program.csproj",
-      "projectName": "structure-of-cs-program",
-      "projectPath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/structure-of-cs-program.csproj",
+      "projectUniqueName": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/week3/week3.csproj",
+      "projectName": "week3",
+      "projectPath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/week3/week3.csproj",
       "packagesPath": "/Users/jbailey/.nuget/packages/",
-      "outputPath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/csProgramStructure/obj/",
+      "outputPath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/week3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jbailey/.nuget/NuGet/NuGet.Config"
