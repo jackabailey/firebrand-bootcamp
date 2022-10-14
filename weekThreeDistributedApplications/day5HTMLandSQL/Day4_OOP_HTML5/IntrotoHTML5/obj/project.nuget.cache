@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ustw5r5ktsdk4EWT6ebBSpu/QgRJanUaBsPe22diFkdZDJdm/krlfiqct76IGFm792fHAObUnk0AJGYAwywvXQ==",
+  "success": true,
+  "projectFilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/IntrotoHTML5/IntrotoHTML5.csproj",
+  "expectedPackageFiles": [
+    "/Users/jbailey/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/jbailey/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/jbailey/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

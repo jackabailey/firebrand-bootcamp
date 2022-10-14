@@ -1,0 +1,15 @@
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.csproj.AssemblyReference.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.AssemblyInfoInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.AssemblyInfo.cs
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.csproj.CoreCompileInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/bin/Debug/net6.0/objectOrientedProgramming
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/bin/Debug/net6.0/objectOrientedProgramming.deps.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/bin/Debug/net6.0/objectOrientedProgramming.runtimeconfig.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/bin/Debug/net6.0/objectOrientedProgramming.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/bin/Debug/net6.0/objectOrientedProgramming.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/refint/objectOrientedProgramming.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/objectOrientedProgramming.genruntimeconfig.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/objectOrientedProgramming/obj/Debug/net6.0/ref/objectOrientedProgramming.dll

@@ -1,0 +1,15 @@
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/bin/Debug/net6.0/week3
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/bin/Debug/net6.0/week3.deps.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/bin/Debug/net6.0/week3.runtimeconfig.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/bin/Debug/net6.0/week3.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/bin/Debug/net6.0/week3.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.csproj.AssemblyReference.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.AssemblyInfoInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.AssemblyInfo.cs
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.csproj.CoreCompileInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/refint/week3.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/week3.genruntimeconfig.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/dataStructures/obj/Debug/net6.0/ref/week3.dll
