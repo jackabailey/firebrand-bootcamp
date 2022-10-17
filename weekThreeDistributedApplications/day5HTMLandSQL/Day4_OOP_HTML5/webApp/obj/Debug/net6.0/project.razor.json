@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/webApplications.csproj",
+  "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/webApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,41 +16295,41 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "webApplications",
+  "RootNamespace": "webApp",
   "Documents": [
     {
-      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/Pages/Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/Pages/Shared/_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/Pages/_ViewStart.cshtml",
+      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/webApplications/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/Pages/Shared/_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekThreeDistributedApplications/day5HTMLandSQL/Day4_OOP_HTML5/webApp/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],
