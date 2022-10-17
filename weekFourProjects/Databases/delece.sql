@@ -1,0 +1,8 @@
+-- Deleting Data
+
+-- DELETE NEEDS A WHERE, OTHERWISE IT"LL DELETE EVERYTHING
+
+DELETE FROM Employee
+WHERE EmployeeID = 5;
+
+SELECT * FROM Employee;

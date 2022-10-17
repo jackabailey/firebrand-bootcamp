@@ -1,3 +1,7 @@
+CREATE DATABASE FirstDB; -- ; are important
+
+USE FirstDB; -- Second Query
+
 CREATE TABLE Employee(
     -- A PRIMARY KEY is a unique identifier within a database table
     -- We try and use numbers instead of names (For the data type) 
@@ -8,3 +12,5 @@ CREATE TABLE Employee(
 )
 
 SELECT * FROM Employee;
+
+-- As much as is possible, you should keep different methods of queries in different files.
