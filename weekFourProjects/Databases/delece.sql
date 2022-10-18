@@ -3,7 +3,7 @@
 -- DELETE NEEDS A WHERE, OTHERWISE IT"LL DELETE EVERYTHING
 
 DELETE FROM Employee
-WHERE EmployeeID = 5;
+WHERE EmployeeID = 4;
 
 -- You should ALWAYS delete by PRIMARY KEY!!! It's too risky to do this unless you know EXACTLY what you're doing and how it will affect the database
 

@@ -10,4 +10,26 @@ UPDATE Employee
 SET EmployeeLocation = "Barnslee";
 
 
-SELECT * FROM Employee;
+1
+
+-- We can also update the table in other ways.
+-- We can ADD columns
+ALTER TABLE Employee
+ADD Salary int;
+
+ALTER TABLE Employee
+ADD JobRole varchar(255);
+
+ALTER TABLE Employee
+ADD Mistake int;
+
+-- and we can REMOVE them (Dangerous though)
+ALTER TABLE Employee
+DROP COLUMN Mistake;
+
+-- DROP TABLE Employee;
+-- THIS ONE IS VERY BAD!!! DONT RUN THIS UNLESS YOU REALLY WANT TO CRY!!! HOW ABOUT YOU DON'T GO AHEAD AND CLICK THE LIGHTNING BOLT ON THIS LITTLE QUERY HERE, YOU'LL HAVE A REALLY BAD TIME!!!
+
+-- We can rename columns too
+ALTER TABLE Employee
+RENAME COLUMN EmployeeLocation TO BusinessName
