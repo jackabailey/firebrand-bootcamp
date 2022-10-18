@@ -9,9 +9,6 @@ WHERE EmployeeID = 4;
 UPDATE Employee
 SET EmployeeLocation = "Barnslee";
 
-
-1
-
 -- We can also update the table in other ways.
 -- We can ADD columns
 ALTER TABLE Employee
