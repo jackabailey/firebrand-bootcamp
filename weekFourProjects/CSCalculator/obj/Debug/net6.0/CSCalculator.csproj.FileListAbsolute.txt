@@ -1,0 +1,15 @@
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/bin/Debug/net6.0/CSCalculator
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/bin/Debug/net6.0/CSCalculator.deps.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/bin/Debug/net6.0/CSCalculator.runtimeconfig.json
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/bin/Debug/net6.0/CSCalculator.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/bin/Debug/net6.0/CSCalculator.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.csproj.AssemblyReference.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.AssemblyInfoInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.AssemblyInfo.cs
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.csproj.CoreCompileInputs.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/refint/CSCalculator.dll
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.pdb
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/CSCalculator.genruntimeconfig.cache
+/Users/jbailey/Documents/work-files/current/firebrand/firebrandBootcamp/weekFourProjects/CSCalculator/obj/Debug/net6.0/ref/CSCalculator.dll
