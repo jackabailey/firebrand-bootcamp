@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almendra+Display&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-icons.css">
@@ -15,11 +17,25 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-light navbar-expand-md py-3" style="border-bottom-width: 61px;border-bottom-style: inherit;filter: brightness(117%) contrast(200%) hue-rotate(33deg);transform-style: preserve-3d;position: relative;width: 100%;background: #ffffff;">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-4"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-4">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: rgba(27,27,27,0.9);font-size: 16px;">Showcase</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: rgba(27,27,27,0.9);">Every Product We Sell</a></li>
+                </ul>
+                <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
+            </div>
+            <div class="d-none d-md-block"></div>
+            <div><span id="cartCountBadge" class="badge bg-danger" style="position: fixed;margin-top: -9px;margin-left: 25px;background: rgb(255,86,76);">0</span><a class="btn btn-primary" role="button" id="cartButton" href="#" style="min-height: 40px;"><i class="fas fa-shopping-basket" data-bss-hover-animate="pulse"></i></a></div>
+        </div>
+    </nav>
+    <h1 style="margin-left: 9px;font-weight: bold;text-align: center;">Your Shopping Cart</h1>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="assets/js/cart.js"></script>
-    <script src="assets/js/index.js"></script>
+    <script src="assets/js/classdefinitions.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
