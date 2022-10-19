@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title></title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almendra+Display&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-icons.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Centered-badges.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md py-3">
+    <nav class="navbar navbar-light navbar-expand-md py-3" style="border-radius: 74px;border-bottom-width: 61px;border-bottom-style: inherit;filter: brightness(117%) contrast(200%) hue-rotate(33deg);transform-style: preserve-3d;">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier">
                         <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"></path>
                         <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
@@ -22,10 +25,109 @@
                 </ul>
                 <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
             </div>
-            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" href="#">Cart</a></div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" id="cartButton" href="cartDisplay.html">Cart</a></div>
         </div>
     </nav>
+    <div data-bss-parallax-bg="true" style="height: 100%;background: linear-gradient(rgba(0,0,0,0) 0%, rgba(42,62,30,0.23) 100%), url(&quot;assets/img/tim-chow-9IcKPSQ9G5Q-unsplash.jpg&quot;) center / cover no-repeat;">
+        <section class="py-4 py-xl-5" style="height: 100vh;">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                        <div>
+                            <h2 class="text-uppercase fw-bold mb-3" style="font-family: 'Almendra Display', serif;font-size: 35px;font-weight: bold;color: rgb(0,0,0);">Imagine how it feels to breathe fresh air</h2>
+                            <p class="mb-4"></p><button class="btn btn-primary fs-5 me-2 py-2 px-4" type="button">Button</button><button class="btn btn-outline-primary fs-5 py-2 px-4" type="button">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2>Featured Air</h2>
+                <p class="w-lg-50">See our recommended air below!</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-xl-flex">
+            <div class="col">
+                <div class="card mb-4">
+                    <div class="card-body text-center p-4">
+                        <h4 class="fw-bold card-subtitle">Some Air</h4>
+                        <h4 class="display-5 fw-bold card-title">£19.99<span class="fs-4 fw-normal text-muted">/yr</span></h4>
+                        <p>Buy some air today and keep breathing freely, forever (Provided you pay)</p><a class="btn btn-light d-block w-100" role="button" id="someAirAddToCart">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="bg-light border rounded border-light p-4">
+                    <ul class="list-unstyled">
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>A simple, Monthly subscription for one canister of air, sent to your door each month</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>One subscription per household member</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>5+ Person Discount of 30%</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary border-2 mb-4">
+                    <div class="card-body text-center p-4" style="background: var(--bs-blue);height: 272.391px;margin-top: -18px;"><span class="badge rounded-pill bg-primary position-absolute top-0 start-50 translate-middle text-uppercase" style="margin-top: -17px;">Most Popular - One time purchase</span>
+                        <h4 class="fw-bold card-subtitle" style="color: var(--bs-card-bg);padding-top: 10px;font-size: 32px;margin-top: -7px;">Cleaner Air</h4>
+                        <h4 class="display-5 fw-bold card-title" style="color: var(--bs-card-bg);margin-top: 1px;">£349.99<span class="fs-4 fw-normal text-muted"></span></h4>
+                        <p style="color: var(--bs-card-bg);margin-top: 10px;">Get yourself some super clean, crisp and refreshing air that isn't from your AC unit!<br></p><a class="btn btn-primary d-block w-100" role="button" id="cleanAirAddToCart" style="color: var(--bs-black);background: var(--bs-card-bg);">Add to Cart</a>
+                    </div>
+                </div>
+                <div class="bg-light border rounded border-light p-4">
+                    <ul class="list-unstyled">
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>Cleaner, Filtered Air pumped into 3 rooms in your home</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>No subscriptions - One time purchase</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>Installation from Just £50</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4">
+                    <div class="card-body text-center p-4" style="background: var(--bs-gray-900);">
+                        <h4 class="fw-bold card-subtitle" style="color: var(--bs-card-bg);">ProAir (Patent Pending)</h4>
+                        <h4 class="display-5 fw-bold card-title" style="color: var(--bs-card-bg);">£9499.99<span class="fs-4 fw-normal text-muted" style="color: var(--bs-card-bg);">/yr</span></h4>
+                        <p style="color: var(--bs-card-bg);">The world-famous ProAir, now available to reserve - Only for the rich!</p><a class="btn btn-dark d-block w-100" role="button" id="proAirReserve" style="background: var(--bs-link-hover-color);color: var(--bs-card-bg);">Reserve Today</a>
+                    </div>
+                </div>
+                <div class="bg-light border rounded border-light p-4">
+                    <ul class="list-unstyled">
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>A yearly subscription for those who want extra</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>Filtered, purified and refined air pumped directly into your home</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>Diamond-infused, Bottled Air included for 5 family members</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>Exclusive AirClub Access and discounts on other Air products</span></li>
+                        <li class="d-flex mb-2"><span class="bs-icon-xs bs-icon-rounded bs-icon-primary-light bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-lg">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"></path>
+                                </svg></span><span>Win a prize with every subscriber you recommend</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/index.js"></script>
 </body>
 
 </html>
