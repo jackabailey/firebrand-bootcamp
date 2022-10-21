@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title></title>
+    <title>airStore</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almendra+Display&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/beautiful-danger-alert.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-icons.css">
@@ -25,21 +26,131 @@
             <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-4" style="background: #ffffff;">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link active" href="#" style="color: #1b1b1be6;font-weight: bold;">Showcase</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" style="color: #1b1b1be6;">Every Product We Sell</a></li>
+                    <li class="nav-item"></li>
                 </ul>
                 <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
             </div>
             <div class="d-none d-md-block" style="background: #ffffff;"></div>
-            <div style="background: #ffffff;"><span id="cartCountBadge" class="badge bg-danger" style="position: fixed;margin-top: -9px;margin-left: 25px;background: rgb(255,86,76);">0</span><a class="btn btn-primary" role="button" id="cartButton" href="cart.html" style="min-height: 40px;"><i class="fas fa-shopping-basket" data-bss-hover-animate="pulse"></i></a></div>
+            <div style="background: #ffffff;"><span id="cartCountBadge" class="badge bg-danger" style="position: fixed;margin-top: -9px;margin-left: 25px;background: rgb(255,86,76);">0</span><a class="btn btn-primary" role="button" id="cartButton" style="min-height: 40px;background: rgb(25,25,25);"><i class="fas fa-shopping-basket" data-bss-hover-animate="pulse"></i></a></div>
         </div>
     </nav>
-    <div class="container py-4 py-xl-5" style="width: 100%;">
+    <div class="container py-4 py-xl-5" style="width: 100%;"><div class="shopping-cart">
+<div id="cartDisplay" class="d-none">
+
+  <div class="pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+
+          <!-- Shopping cart table -->
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="p-2 px-3 text-uppercase">Your Air</div>
+                  </th>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="py-2 text-uppercase">How much it will hurt your bank account</div>
+                  </th>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="py-2 text-uppercase">How many you've selected</div>
+                  </th>
+                  <th scope="col" class="border-0 bg-light">
+                    <div class="py-2 text-uppercase">Remove from basket (Not Rcommended)</div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="d-none" id=SomeAirInCart>
+                  <th scope="row">
+                    <div class="p-2">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block align-middle">Some Air </a></h5><span class="text-muted font-weight-normal font-italic d-block">Category: Air</span>
+                      </div>
+                    </div>
+                  </th>
+                  <td class="border-0 align-middle"><strong>£19.99/mo</strong></td>
+                  <td id="SomeAirCount" class="border-0 align-middle"><strong>1</strong></td>
+                  <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+                </tr>
+                <tr class="d-none" id=CleanAirInCart>
+                  <th scope="row" >
+                    <div class="p-2">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"><a href="#" class="text-dark d-inline-block">Clean Air</a></h5><span class="text-muted font-weight-normal font-italic">Category: Premium Air</span>
+                      </div>
+                    </div>
+                  </th>
+                  <td class="align-middle"><strong>£349.99</strong></td>
+                  <td id="CleanAirCount" class="align-middle"><strong>1</strong></td>
+                  <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                  </td>
+                </tr>
+                <tr class="d-none" id=ProAirInCart>
+                  <th scope="row">
+                    <div class="p-2">
+                      <div class="ml-3 d-inline-block align-middle">
+                        <h5 class="mb-0"> <a href="#" class="text-dark d-inline-block">ProAir Reservation</a></h5><span class="text-muted font-weight-normal font-italic">Category: Reservation</span>
+                      </div>
+                    </div>
+                    <td class="align-middle"><strong>£9499.99/yr</strong></td>
+                    <td id="ProAirCount" class="align-middle"><strong>1</strong></td>
+                    <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+                    </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- End -->
+        </div>
+      </div>
+
+      <div class="row py-5 p-4 bg-white rounded shadow-sm">
+        <div class="col-lg-6">
+          <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Coupon code</div>
+          <div class="p-4">
+            <p class="font-italic mb-4">If you have a coupon code, please enter it in the box below</p>
+            <div class="input-group mb-4 border rounded-pill p-2">
+              <input id="personalCoupon" type="text" placeholder="Enter coupon code" aria-describedby="button-addon3" class="form-control border-0">
+              <div class="input-group-append border-0">
+                <button id="addCouponbtn" type="button" class="btn btn-dark px-4 rounded-pill"><i class="fa fa-gift mr-2"></i>Apply coupon</button>
+              </div>
+            </div>
+          </div>
+          <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Instructions for seller</div>
+          <div class="p-4">
+            <p class="font-italic mb-4">If you have some information for the seller you can leave them in the box below</p>
+            <textarea name="" cols="30" rows="2" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Order summary </div>
+          <div class="p-4">
+            <p class="font-italic mb-4">Shipping and additional costs are calculated based on values you have entered.</p>
+            <ul class="list-unstyled mb-4">
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Order Subtotal </strong><strong id="cartSubTotal">£0.00</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Shipping and Handling - Flat rate</strong><strong id="cartShippingHandling">£10.00</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Tax (VAT 20% + Air Tax 15%)</strong><strong id="taxTotal">£0.00</strong></li>
+              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total due today</strong>
+                <h5 id = "cartTotal" class="font-weight-bold">£0.00</h5>
+              </li>
+            </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block">Procceed to checkout</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
         <div class="row mb-5" style="margin-top: 66px;">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
                 <h2 style="font-weight: bold;font-size: 33.44px;">Featured Air</h2>
                 <p class="w-lg-50" style="font-weight: bold;">See our recommended air below!</p>
             </div>
         </div>
+        <div class="alert alert-danger beautiful" role="alert" id="cartEmptyAlert" style="margin-bottom: 76px;"><strong>Warning!</strong> You must add a product to the cart to view it</div>
         <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-xl-flex">
             <div class="col">
                 <div class="card mb-4" style="border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;">
@@ -66,8 +177,8 @@
             <div class="col">
                 <div class="card border-primary border-2 mb-4" style="border-top-style: none;border-right-style: none;border-bottom-style: none;border-left-style: none;border-radius: 0;">
                     <div class="card-body text-center p-4" data-aos="fade-up" data-aos-delay="100" data-aos-once="true" style="background: var(--bs-blue);height: 270px;margin-top: -18px;border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: ridge;border-top-style: none;border-right-style: none;border-bottom-width: 1px;border-bottom-style: none;border-left-style: none;"><span class="badge rounded-pill bg-primary position-absolute top-0 start-50 translate-middle text-uppercase">Most Popular - One time purchase</span>
-                        <h4 class="fw-bold card-subtitle" style="color: var(--bs-card-bg);padding-top: 10px;font-size: 32px;margin-top: -4px;">Cleaner Air</h4>
-                        <h4 class="display-5 fw-bold card-title" style="color: var(--bs-card-bg);margin-top: 8px;">£349.99<span class="fs-4 fw-normal text-muted"></span></h4>
+                        <h4 class="fw-bold card-subtitle" style="color: var(--bs-card-bg);padding-top: 10px;font-size: 32px;margin-top: -5px;">Cleaner Air</h4>
+                        <h4 class="display-5 fw-bold card-title" style="color: var(--bs-card-bg);margin-top: 5px;margin-bottom: 10px;">£349.99<span class="fs-4 fw-normal text-muted"></span></h4>
                         <p style="color: var(--bs-card-bg);">Get yourself some super clean, crisp and refreshing air that isn't from your AC unit!<br></p><a class="btn btn-primary d-block w-100" role="button" id="cleanAirAddToCart" style="color: var(--bs-black);background: var(--bs-card-bg);">Add to Cart</a>
                     </div>
                 </div>
@@ -121,38 +232,37 @@
                 <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
                     <h3 class="fs-6">Services</h3>
                     <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#">Web design</a></li>
-                        <li><a class="link-secondary" href="#">Development</a></li>
-                        <li><a class="link-secondary" href="#">Hosting</a></li>
+                        <li><a class="link-secondary" href="#">Buy some air</a></li>
+                        <li><a class="link-secondary" href="#">Sell air with us</a></li>
+                        <li><a class="link-secondary" href="#">Definitely not dodgy Investment Services</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
                     <h3 class="fs-6">About</h3>
                     <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#">Company</a></li>
-                        <li><a class="link-secondary" href="#">Team</a></li>
-                        <li><a class="link-secondary" href="#">Legacy</a></li>
+                        <li><a class="link-secondary" href="#">Our Company</a></li>
+                        <li><a class="link-secondary" href="#">Our Values</a></li>
+                        <li><a class="link-secondary" href="#">Our Legacy</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
                     <h3 class="fs-6">Careers</h3>
                     <ul class="list-unstyled">
-                        <li><a class="link-secondary" href="#">Job openings</a></li>
-                        <li><a class="link-secondary" href="#">Employee success</a></li>
-                        <li><a class="link-secondary" href="#">Benefits</a></li>
+                        <li><a class="link-secondary" href="#">Bottle air with is</a></li>
+                        <li><a class="link-secondary" href="#">Employee Recognition Programme</a></li>
+                        <li><a class="link-secondary" href="#">Employee Benefits</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
-                    <div class="fw-bold d-flex align-items-center mb-2"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier">
-                                <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"></path>
-                                <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
-                            </svg></span><span>Brand</span></div>
-                    <p class="text-muted copyright">Sem eleifend donec molestie, integer quisque orci aliquam.</p>
+                    <div class="fw-bold d-flex align-items-center mb-2"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center bs-icon me-2"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-wind" style="color: var(--bs-black);">
+                                <path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z"></path>
+                            </svg></span><span>The Air Company</span></div>
+                    <p class="text-muted copyright">Selling fresh air to all major UK cities</p>
                 </div>
             </div>
             <hr>
             <div class="d-flex justify-content-between align-items-center pt-3">
-                <p class="text-muted mb-0">Not Quite Copyrighted © 2022 ScamAir inc.</p>
+                <p class="text-muted mb-0">Not Quite Copyrighted © 2022 AirCo inc.</p>
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
                             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>

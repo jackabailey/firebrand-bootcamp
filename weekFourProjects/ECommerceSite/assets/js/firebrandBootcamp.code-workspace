@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../musicMatcher"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "firebrandBootcamp"
+	}
+}

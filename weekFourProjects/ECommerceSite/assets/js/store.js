@@ -9,6 +9,7 @@ someAirAddToCart.addEventListener("click",
     console.log("Some Air Added to Cart");
     increaseCartCount();
     cart.push(SomeAir);
+    addSomeAirToCartView();
     }
 )
 cleanAirAddToCart.addEventListener("click",
@@ -16,6 +17,7 @@ cleanAirAddToCart.addEventListener("click",
     console.log("Clean Air Added to Cart");
     increaseCartCount();
     cart.push(CleanAir);
+    addCleanAirToCartView();
     }
 )
 proAirReserve.addEventListener("click",
@@ -23,5 +25,6 @@ proAirReserve.addEventListener("click",
     console.log("Pro Air Reserved in Cart for 10 Minutes");
     increaseCartCount();
     cart.push(ProAir);
+    addProAirToCartView();
     }
 )
